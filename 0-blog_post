@@ -1,0 +1,1 @@
+The web server runs any final processing, compression, and optimization tasks before sending the finished product back along the open TCP/IP connection to your computer. This all happens in milliseconds, and your browser receives and displays the freshly prepared google.com search page in seconds 
