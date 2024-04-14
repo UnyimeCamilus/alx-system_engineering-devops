@@ -1,0 +1,15 @@
+ways to better explain our web world with the help of a diagram
+
+
+The flow starts with DNS resolution where our browser check a DNS server to resolve the domain name "www.google.com" to an IP address.
+Our browser then establishes a TCP/IP connection to the IP address obtained from the DNS server.
+The traffic is encrypted as indicated by the "Encrypted" arrows between our browser and Google's server, ensuring secure communication.
+The connection passes through a firewall, which control incoming and outgoing network traffic.
+Google's infrastructure likely employs load balancers to distribute incoming requests across multiple web servers for load balancing and high availability.
+The request reaches a web server, which hosts the Google search web application and serves the requested content.
+Behind the scenes, an application server may handle the logic of the Google search service, generating the web page content dynamically.
+The application server may need to request data from a database server to fulfill the user's request, such as fetching indexed web pages or user preferences.
+This diagram provides a high-level overview of the flow of the request from your browser to Google's servers and back.
+
+https://camilusdaniel90.atlassian.net/wiki/spaces/~7120204af2d176b0454d07a2a40ace215a41d0/whiteboard/294915
+https://medium.com/@camilusunyimedaniel/superb-ways-to-explain-our-web-world-with-the-help-of-a-diagram-0a2b22b157fd
